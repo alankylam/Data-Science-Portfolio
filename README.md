@@ -1,6 +1,8 @@
 # alankylam.github.io
 # Project Title
 
+![](images/6e42be86-223f-47c0-960b-80afe4d988c3_figure5.gif)
+
 One Paragraph of project description goes here
 
 ## Getting Started
