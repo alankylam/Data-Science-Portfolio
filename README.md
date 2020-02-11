@@ -3,7 +3,7 @@
 
 This portfolio is a compilation of projects I created for corporate data analysis and undergraduate courses. 
 
-## Petroleum Company Drilling Data Project 
+## Oil & Gas Corporate Drilling Data Project 
 ### Problem
 
 This project tackled the data integrity issue that caused major discrepancies between theoretical and actual oil well data. 
@@ -101,6 +101,6 @@ I was then able to create a Python script to streamline this process for the cor
 
 <img src="images/HessResults.PNG" width= "600">
 
+![](images/CorpRepos.PNG)
 
 
-[corporate repository before/after]
