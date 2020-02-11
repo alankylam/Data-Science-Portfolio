@@ -42,7 +42,7 @@ Minimum Curvature Method
 
 With this in mind, my analysis first focused on the different parameters of the well to understand which part of had the largest impact.
 
-Parameters of an Oil Well
+**Parameters of an Oil Well**
 * Vertical  
 * Build 
 * Lateral
