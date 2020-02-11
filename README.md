@@ -1,90 +1,35 @@
 # alankylam.github.io
-# Project Title
+# Data Science Portfolio by Alan Lam
 
-![](images/6e42be86-223f-47c0-960b-80afe4d988c3_figure5.gif)
+This portfolio is a compilation of projects which I created for corporate data analysis and undergraduate courses. 
 
-One Paragraph of project description goes here
+## Corporate Drilling Data Project 
 
-## Getting Started
+This project tackled the data integrity issue that caused major discrepancies between theoretical and actual well data. 
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+There were major differences in the field captured and software calculated bottom-holes (BH), the deepest known point of a well, within the corporate repository of over 19,000 wells. 
 
-### Prerequisites
+[ Insert Image of Well] 
+[Insert Image of discrepenacy] 
+### Analysis
+First, we must understand how drilling data is recorded and visualized. 
 
-What things you need to install the software and how to install them
-
-```
-Give examples
-```
-
-### Installing
-
-A step by step series of examples that tell you how to get a development env running
-
-Say what the step will be
-
-```
-Give the example
-```
-
-And repeat
-
-```
-until finished
-```
-
-End with an example of getting some data out of the system or using it for a little demo
-
-## Running the tests
-
-Explain how to run the automated tests for this system
-
-### Break down into end to end tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-### And coding style tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-## Deployment
-
-Add additional notes about how to deploy this on a live system
-
-## Built With
-
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
-
-## Contributing
-
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
-
-## Versioning
-
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
-
-## Authors
-
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
-
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
-
-## Acknowledgments
-
-* Hat tip to anyone whose code was used
-* Inspiration
-* etc
+Drilling data is collected through measurement-while-drilling (MWD) tools during the drilling process that utilizes electrical impulses to transmit a combination of data. The survey data collected typically consists of measured depth, inclination, and azimuth--or MDINCAZM for short. 
+[Insert drilling gif]
+The MDINCAZM data is then visualized using the mathematical formula called the minimum curvature method displayed below.
+[insert MD picture]
+With this in mind, my analysis first focused on the different parts of the well to understand which part of had the largest impact.
+[insert analysis 1, different parts of the well]
+The conclusion from this analysis found that the vertical length was the major culprit. The vertical section of the data set was left out for operational cutbacks in order to decrease the cost of the MWD tool use. But, in return, this caused data integrity issues for the office. 
+[insert missing section grapgic] [with missing section data graphic]
+I conducted further analysis on the missing vertical lengths to understand on what magnitude this impacted the BH discrepancy. 
+[insert analysis 2, analysis of missing length]
+The conclusion from this was that a larger missing vertical data set for a well did not directly lead to a larger discrepancy, but rather, a larger error potential.  
+To take my analysis further, I was then able to create a heatmap that highlighted BH errors alongside well parameters to further understand this discrepancy. 
+[insert heatmap photos]
+### Solution
+Next, I began testing for different solutions to minimize the BH difference. 
+I began interpolating the missing well data to fill in the data gaps for various wells. After defining interpolation rules, I was able to minimize the BH discrepancy by ~70% (e.g. 50ft BH error to 15ft error).
+[insert fixed data sheet] [insert data results]
+I was then able to create a Python script to streamline this process for the corporate repository. 
+[corporate repository before/after]
