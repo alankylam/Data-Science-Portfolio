@@ -8,6 +8,12 @@ This portfolio is a compilation of projects I created for corporate data analysi
 3. [Los Angeles Investment Projections](https://alankylam.github.io/#los-angeles-investment-projections)
 
 ## Oil & Gas Corporate Drilling Data Project 
+
+### Outline
+* [Problem](https://alankylam.github.io/#problem)
+* [Analysis](https://alankylam.github.io/#analysis)
+* [Solution](https://alankylam.github.io/#solution)
+
 ### Problem
 
 This project tackled the data integrity issue that caused major discrepancies between theoretical and actual oil well data. 
@@ -52,7 +58,7 @@ With this in mind, my analysis first focused on the premise that certain section
 * Lateral
 * Azimuth (Cardinal Directions)  
 
-<img src="images/Vertical1.PNG" width= "400">
+<img src="images/Vertical1.PNG" width= "500">
 
 > Vertical Section   
 
