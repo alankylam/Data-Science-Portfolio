@@ -11,7 +11,7 @@ This project tackled the data integrity issue that caused major discrepancies be
 There were major differences in the software calculated and field captured bottom-holes (BH), the deepest known point of a well, within the corporate repository of over 19,000 wells. 
 
 
-<img src="https://alankylam.github.io/images/WellSchematic.PNG" width=800>
+<img src="https://alankylam.github.io/images/WellSchematic.PNG" width=800 />
 
 > Well Schematic for a Horizontal Well
 
