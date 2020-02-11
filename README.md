@@ -1,4 +1,4 @@
-# alankylam.github.io
+# [alankylam.github.io](alankylam.github.io)
 # Data Science Portfolio by Alan Lam
 
 This portfolio is a compilation of projects I created for corporate data analysis and undergraduate courses. 
