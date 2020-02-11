@@ -11,9 +11,15 @@ There were major differences in the field captured and software calculated botto
 
 ![](images/WellSchematic.PNG) 
 
-Well Schematic for Horizontal Well
+```
+Well Schematic for a Horizontal Well
+```
 
 ![](images/BH1.PNG)
+
+```
+Bottom Hole Discrepancy in 3D Visualization  
+```
 
 ### Analysis
 First, we must understand how drilling data is recorded and visualized. 
