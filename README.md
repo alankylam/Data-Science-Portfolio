@@ -27,7 +27,7 @@ First, we must understand how drilling data is recorded and visualized.
 Drilling data is collected through measurement-while-drilling (MWD) tools during the drilling process that utilizes electrical impulses to transmit a combination of data. The survey data collected typically consists of measured depth, inclination, and azimuth--or MDINCAZM for short. 
 
 
-<img src="images/WellSurvey.gif" width=400>
+<img src="images/WellSurvey.gif" width= "400">
 
 > Data Acquisition with MWD tools while drilling  
 
@@ -35,7 +35,7 @@ Drilling data is collected through measurement-while-drilling (MWD) tools during
 The MDINCAZM data is then visualized using the mathematical formula called the minimum curvature method displayed below.
 
 
-<img src="images/MinCurve.PNG" width=600>
+<img src="images/MinCurve.PNG" width= "600">
 
 > Minimum Curvature Method   
 
