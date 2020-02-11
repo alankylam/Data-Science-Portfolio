@@ -12,7 +12,7 @@ There were major differences in the software calculated and field captured botto
 
 ![](images/WellSchematic.PNG) 
 
-<img src="WellSchematic.PNG" width=100>
+<img src="images/WellSchematic.PNG" width=100>
 
 > Well Schematic for a Horizontal Well
 
