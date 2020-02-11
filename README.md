@@ -79,21 +79,27 @@ I conducted further analysis on the missing vertical lengths to understand on wh
 I saw that a larger missing vertical data set for a well did not **directly** lead to a larger discrepancy, but rather, a larger **potential** for error.
 > For example: 2 oil wells, each with 2000 ft missing vertical length. You would first assume they would have similar BH errors, but they didn't. One had an error of 150 ft, the other only had an error of 2 ft! Weird! 
 
-To take my analysis further, I was then able to create a heatmap that highlighted BH errors alongside well parameters to further understand this discrepancy. 
+To take my analysis further, I was then able to create a heatmap that highlighted BH errors with different combinations of well parameters to further understand explore the issue. 
 
 
 ![](images/Hess1.PNG)
 ![](images/Hess2.PNG)
 ![](images/Hess3.PNG)
 
+> Heatmap further analyzing Missing Vertical Length parameter along with other various parameters
 
 ### Solution
 Next, I began testing for different solutions to minimize the BH difference. 
 
 I began interpolating the missing well data to fill in the data gaps for various wells. After defining interpolation rules, I was able to minimize the BH discrepancy by ~70% (e.g. 50ft BH error to 15ft error).
 
-[insert fixed data sheet] [insert data results]
+![](images/Interp.PNG)
+
 
 I was then able to create a Python script to streamline this process for the corporate repository. 
+
+![](images/HessResults.PNG)
+
+
 
 [corporate repository before/after]
