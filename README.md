@@ -44,7 +44,7 @@ The MDINCAZM data is then visualized using the mathematical formula called the m
 > Minimum Curvature Method   
 
 
-With this in mind, my analysis first focused on the different parameters of the well to understand which part of had the largest impact.
+With this in mind, my analysis first focused on the premise that certain sections of the well were most prone to errors.
 
 **Parameters of an Oil Well**
 * Vertical  
@@ -52,7 +52,7 @@ With this in mind, my analysis first focused on the different parameters of the 
 * Lateral
 * Azimuth (Cardinal Directions)  
 
-![](images/Vertical1.PNG)
+<img src="images/Vertical1.PNG" width= "400">
 
 > Vertical Section   
 
