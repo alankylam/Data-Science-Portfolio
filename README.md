@@ -48,8 +48,25 @@ Parameters of an Oil Well
 * Lateral
 * Azimuth (Cardinal Directions)  
 
-[insert analysis 1, different parts of the well]
+![](images/Vertical1.png)
+```
+Vertical Section   
+```
 
+![](images/Buildsection.png)
+```
+Build Section   
+```
+
+![](images/lateral.png)
+```
+Lateral Section   
+```
+
+![](images/AZM.png)
+```
+Azimuth (Well Orientation)   
+```
 
 The conclusion from this analysis found that the vertical length was the major culprit. The vertical section of the data set was left out for operational cutbacks in order to decrease the cost of the MWD tool use. But, in return, this caused data integrity issues for the office. 
 
