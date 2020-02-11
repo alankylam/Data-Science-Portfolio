@@ -16,9 +16,9 @@ There were major differences in the software calculated and field captured botto
 
 ![](images/BH1.PNG)
 
-```
- 3D Visualization of Bottom Hole Discrepancy  
-```
+
+> 3D Visualization of Bottom Hole Discrepancy  
+
 
 ### Analysis
 First, we must understand how drilling data is recorded and visualized. 
@@ -26,17 +26,17 @@ First, we must understand how drilling data is recorded and visualized.
 Drilling data is collected through measurement-while-drilling (MWD) tools during the drilling process that utilizes electrical impulses to transmit a combination of data. The survey data collected typically consists of measured depth, inclination, and azimuth--or MDINCAZM for short. 
 
 ![](images/WellSurvey.gif)
-```
-MWD tools while drilling  
-```
+
+> MWD tools while drilling  
+
 
 The MDINCAZM data is then visualized using the mathematical formula called the minimum curvature method displayed below.
 
 ![](images/MinCurve.PNG)
 
-```
-Minimum Curvature Method   
-```
+
+> Minimum Curvature Method   
+
 
 With this in mind, my analysis first focused on the different parameters of the well to understand which part of had the largest impact.
 
@@ -47,24 +47,24 @@ With this in mind, my analysis first focused on the different parameters of the 
 * Azimuth (Cardinal Directions)  
 
 ![](images/Vertical1.PNG)
-```
-Vertical Section   
-```
+
+> Vertical Section   
+
 
 ![](images/BuildSection.PNG)
-```
-Build Section   
-```
+
+> Build Section   
+
 
 ![](images/Lateral.PNG)
-```
-Lateral Section   
-```
+
+> Lateral Section   
+
 
 ![](images/Azm.PNG)
-```
-Azimuth (Well Orientation)   
-```
+
+> Azimuth (Well Orientation)   
+
 
 The conclusion from this analysis found that the vertical length was the major culprit. The vertical section of the data set was left out for operational cutbacks in order to decrease the cost of the MWD tool use. But, in return, this caused data integrity issues for the office. 
 
