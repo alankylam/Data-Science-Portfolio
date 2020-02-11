@@ -10,9 +10,8 @@ This project tackled the data integrity issue that caused major discrepancies be
 
 There were major differences in the software calculated and field captured bottom-holes (BH), the deepest known point of a well, within the corporate repository of over 19,000 wells. 
 
-![](images/WellSchematic.PNG) 
 
-<img src="images/WellSchematic.PNG" width=100>
+<img src="images/WellSchematic.PNG" width=800>
 
 > Well Schematic for a Horizontal Well
 
@@ -29,12 +28,13 @@ Drilling data is collected through measurement-while-drilling (MWD) tools during
 
 ![](images/WellSurvey.gif)
 
-> MWD tools while drilling  
+> Data Acquisition with MWD tools while drilling  
 
 
 The MDINCAZM data is then visualized using the mathematical formula called the minimum curvature method displayed below.
 
 ![](images/MinCurve.PNG)
+<img src="images/MinCurve.PNG" width=600>
 
 
 > Minimum Curvature Method   
