@@ -48,22 +48,22 @@ Parameters of an Oil Well
 * Lateral
 * Azimuth (Cardinal Directions)  
 
-![](images/Vertical1.png)
+![](images/Vertical1.PNG)
 ```
 Vertical Section   
 ```
 
-![](images/Buildsection.png)
+![](images/BuildSection.PNG)
 ```
 Build Section   
 ```
 
-![](images/lateral.png)
+![](images/Lateral.PNG)
 ```
 Lateral Section   
 ```
 
-![](images/AZM.png)
+![](images/Azm.PNG)
 ```
 Azimuth (Well Orientation)   
 ```
