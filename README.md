@@ -98,7 +98,8 @@ I began interpolating the missing well data to fill in the data gaps for various
 
 I was then able to create a Python script to streamline this process for the corporate repository. 
 
-![](images/HessResults.PNG)
+
+<img src="images/HessResults.PNG" width= "400">
 
 
 
