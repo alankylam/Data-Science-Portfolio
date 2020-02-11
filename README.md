@@ -3,6 +3,10 @@
 
 This portfolio is a compilation of projects I created for corporate data analysis and undergraduate courses. 
 
+1. [Oil & Gas Corporate Drilling Data Project](https://alankylam.github.io/#oil--gas-corporate-drilling-data-project)
+2. [Reservoir Simulation Model Project] (https://alankylam.github.io/#resevoir-simulation-model-project)
+3. [Los Angeles Investment Projections]
+
 ## Oil & Gas Corporate Drilling Data Project 
 ### Problem
 
@@ -109,5 +113,10 @@ Unfortunately, the initial code built is proprietary. I will update with framewo
 
 ![](images/CorpRepos.PNG)
 
-## Resevoir Simulation Model Project
+## Reservoir Simulation Model Project
 
+Under Construction
+
+## Los Angeles Investments Projections
+
+Under Construction
