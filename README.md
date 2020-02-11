@@ -66,16 +66,24 @@ With this in mind, my analysis first focused on the different parameters of the 
 > Azimuth (Well Orientation)   
 
 
-The conclusion from this analysis found that the vertical length was the major culprit. The vertical section of the data set was left out for operational cutbacks in order to decrease the cost of the MWD tool use. But, in return, this caused data integrity issues for the office. 
+The conclusion from this analysis found that the vertical length was the major culprit. The vertical section of the data set was left out for operational cost cutbacks by decreasing the use of the MWD tool. But, in return, caused data integrity issues back in the office. 
 
-[insert missing section grapgic] [with missing section data graphic]
 I conducted further analysis on the missing vertical lengths to understand on what magnitude this impacted the BH discrepancy. 
-[insert analysis 2, analysis of missing length]
 
-The conclusion from this was that a larger missing vertical data set for a well did not directly lead to a larger discrepancy, but rather, a larger error potential.  
+![](images/Vertical.PNG)
+
+> Missing Vertical Section Analysis  
+
+I saw that a larger missing vertical data set for a well did not **directly** lead to a larger discrepancy, but rather, a larger **potential** for error.
+> For example: 2 oil wells, each with 2000 ft missing vertical length. You would first assume they would have similar BH errors, but they didn't. One had an error of 150 ft, the other only had an error of 2 ft! Weird! 
 
 To take my analysis further, I was then able to create a heatmap that highlighted BH errors alongside well parameters to further understand this discrepancy. 
-[insert heatmap photos]
+
+
+![](images/Hess1.PNG)
+![](images/Hess2.PNG)
+![](images/Hess3.PNG)
+
 
 ### Solution
 Next, I began testing for different solutions to minimize the BH difference. 
