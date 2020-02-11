@@ -9,13 +9,19 @@ This project tackled the data integrity issue that caused major discrepancies be
 
 There were major differences in the field captured and software calculated bottom-holes (BH), the deepest known point of a well, within the corporate repository of over 19,000 wells. 
 
-[ Insert Image of Well] 
-[Insert Image of discrepenacy] 
+![](images/WellSchematic.PNG) 
+
+Well Schematic for Horizontal Well
+
+![](images/BH1.PNG)
+
 ### Analysis
 First, we must understand how drilling data is recorded and visualized. 
 
 Drilling data is collected through measurement-while-drilling (MWD) tools during the drilling process that utilizes electrical impulses to transmit a combination of data. The survey data collected typically consists of measured depth, inclination, and azimuth--or MDINCAZM for short. 
-[Insert drilling gif]
+
+![](images/WellSurvey.gif)
+
 The MDINCAZM data is then visualized using the mathematical formula called the minimum curvature method displayed below.
 [insert MD picture]
 With this in mind, my analysis first focused on the different parts of the well to understand which part of had the largest impact.
