@@ -117,6 +117,8 @@ Unfortunately, the initial code built is proprietary. I will update with framewo
 
 Under Construction
 
+![](images/ResModel.PNG)
+
 ## Los Angeles Investment Projections
 
 Under Construction
