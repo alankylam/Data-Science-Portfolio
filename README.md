@@ -123,16 +123,17 @@ Unfortunately, the initial code built is proprietary and not shareable. I will u
 
 ## Reservoir Simulation Model Project - Python, VTK, Matplotlib, NumPy
 
-Outline
-Define Reservoir Characteristics 
-Build Reservoir 
-Simulate Production
+### Outline
+* [Define Reservoir Characteristics]
+* [Build Reservoir](https://alankylam.github.io/#build-reservoir)
+* [Simulate Production](https://alankylam.github.io/#simulate-production)
 
 Reservoir Simulation is used to predict the flow of fluids (typically, oil, water, and gas) through a porous media.
 
 ![](images/ResModel.PNG)
+> Reservoir Model produced through VTK
 
-### Define Parameters
+### Define Reservoir Characteristics
 First, we must define the reservoir characteristics such as transmissibility, porosity, permeability, fluid viscosity, and rate of change. 
 
 ```
