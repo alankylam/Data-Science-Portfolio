@@ -121,7 +121,7 @@ Unfortunately, the initial code built is proprietary and not shareable. I will u
 
 ![](images/CorpRepos.PNG)
 
-## Reservoir Simulation Model Project - Python, VTK, Matplotlib, NumPY
+## Reservoir Simulation Model Project - Python, VTK, Matplotlib, NumPy
 
 Under Construction
 
