@@ -9,7 +9,7 @@ This portfolio is a compilation of projects I created for corporate data analysi
 2. [Reservoir Simulation Model Project](https://alankylam.github.io/#reservoir-simulation-model-project)
 3. [Los Angeles Investment Projections](https://alankylam.github.io/#los-angeles-investment-projections)
 
-## Oil & Gas Corporate Drilling Data Project - SQL, VBA, Python, Spotfire
+# Oil & Gas Corporate Drilling Data Project - SQL, VBA, Python, Spotfire
 
 ### Outline
 * [Problem](https://alankylam.github.io/#problem)
@@ -113,7 +113,7 @@ I was then able to create a Python script to streamline this process for the cor
 ```
 Python Script:
 
-Unfortunately, the initial code built is proprietary. I will update with framework soon.
+Unfortunately, the initial code built is proprietary and not shareable. I will update with framework soon.
 ```
 
 
@@ -121,12 +121,12 @@ Unfortunately, the initial code built is proprietary. I will update with framewo
 
 ![](images/CorpRepos.PNG)
 
-## Reservoir Simulation Model Project - Python, VTK, Matplotlib, NumPY
+# Reservoir Simulation Model Project - Python, VTK, Matplotlib, NumPY
 
 Under Construction
 
 ![](images/ResModel.PNG)
 
-## Los Angeles Investment Projections - R, Tableau, SQL
+# Los Angeles Investment Projections - R, Tableau, SQL
 
 Under Construction
