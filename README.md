@@ -5,9 +5,9 @@ This portfolio is a compilation of projects I created for corporate data analysi
 
 
 **My Projects:**
-1. [Oil & Gas Corporate Drilling Data Project](https://alankylam.github.io/#oil--gas-corporate-drilling-data-project)
-2. [Reservoir Simulation Model Project](https://alankylam.github.io/#reservoir-simulation-model-project)
-3. [Los Angeles Investment Projections](https://alankylam.github.io/#los-angeles-investment-projections)
+1. [Oil & Gas Corporate Drilling Data Project](https://alankylam.github.io/#oil--gas-corporate-drilling-data-project---sql-vba-python-spotfire)
+2. [Reservoir Simulation Model Project](https://alankylam.github.io/#reservoir-simulation-model-project---python-vtk-matplotlib-numpy)
+3. [Los Angeles Investment Projections](https://alankylam.github.io/#los-angeles-investment-projections---r-tableau-sql)
 
 ## Oil & Gas Corporate Drilling Data Project - SQL, VBA, Python, Spotfire
 
