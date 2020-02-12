@@ -1,5 +1,5 @@
-# [alankylam.github.io](alankylam.github.io)
-# Data Science Portfolio by Alan Lam
+### [alankylam.github.io](alankylam.github.io)
+## Data Science Portfolio by Alan Lam
 
 This portfolio is a compilation of projects I created for corporate data analysis and undergraduate courses. 
 
@@ -9,7 +9,7 @@ This portfolio is a compilation of projects I created for corporate data analysi
 2. [Reservoir Simulation Model Project](https://alankylam.github.io/#reservoir-simulation-model-project)
 3. [Los Angeles Investment Projections](https://alankylam.github.io/#los-angeles-investment-projections)
 
-# Oil & Gas Corporate Drilling Data Project - SQL, VBA, Python, Spotfire
+## Oil & Gas Corporate Drilling Data Project - SQL, VBA, Python, Spotfire
 
 ### Outline
 * [Problem](https://alankylam.github.io/#problem)
@@ -121,12 +121,12 @@ Unfortunately, the initial code built is proprietary and not shareable. I will u
 
 ![](images/CorpRepos.PNG)
 
-# Reservoir Simulation Model Project - Python, VTK, Matplotlib, NumPY
+## Reservoir Simulation Model Project - Python, VTK, Matplotlib, NumPY
 
 Under Construction
 
 ![](images/ResModel.PNG)
 
-# Los Angeles Investment Projections - R, Tableau, SQL
+## Los Angeles Investment Projections - R, Tableau, SQL
 
 Under Construction
