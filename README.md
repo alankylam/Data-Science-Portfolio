@@ -128,7 +128,11 @@ Unfortunately, the initial code built is proprietary and not shareable. I will u
 * [Build Reservoir](https://alankylam.github.io/#build-reservoir)
 * [Simulate Production](https://alankylam.github.io/#simulate-production)
 
-Reservoir Simulation is used to predict the flow of fluids (typically, oil, water, and gas) through a porous media.
+### Objective
+Reservoir Simulation is used to predict the flow of fluids (typically, oil, water, and gas) through a porous media. With a reservoir, we can understand how flow and transport in our reservoirs to make engineering decisions.
+
+![](images/Anticline.jpg)
+> Typical oil & gas reservoir 
 
 ### Define Reservoir Characteristics
 First, we must define the reservoir characteristics such as transmissibility, porosity, permeability, fluid viscosity, and rate of change within a 1D reservoir. 
