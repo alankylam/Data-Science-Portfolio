@@ -124,7 +124,7 @@ Unfortunately, the initial code built is proprietary and not shareable. I will u
 ## Reservoir Simulation Model Project - Python, VTK, Matplotlib, NumPy
 
 ### Outline
-* [Define Reservoir Characteristics]
+* [Define Reservoir Characteristics](https://alankylam.github.io/#define-reservoir-characteristics)
 * [Build Reservoir](https://alankylam.github.io/#build-reservoir)
 * [Simulate Production](https://alankylam.github.io/#simulate-production)
 
