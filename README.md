@@ -129,7 +129,7 @@ Unfortunately, the initial code built is proprietary and not shareable. I will u
 * [Simulate Production](https://alankylam.github.io/#simulate-production)
 
 ### Objective
-Reservoir Simulation is used to predict the flow of fluids (typically, oil, water, and gas) through a porous media. With a reservoir, we can understand how flow and transport in our reservoirs to make engineering decisions.
+Reservoir simulation is used to predict the flow of fluids (typically, oil, water, and gas) through a porous media. With a reservoir, we can understand flow and transport in our reservoirs to make engineering decisions.
 
 ![](images/Anticline.jpg)
 > Typical oil & gas reservoir 
@@ -277,9 +277,13 @@ class OneDimReservoir():
         
 
 ```
+![](images/ResModel2.PNG)
+> 2D Reservoir Model created through Matplotlib
 
 ### Build Reservoir 
 Next, the reservoir can now be built in 2D  with Matplotlib and then transformed into 3D using VTK matrices.
+
+
 
 ```
 class TwoDimReservoir(OneDimReservoir):
