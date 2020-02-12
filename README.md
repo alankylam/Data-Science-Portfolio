@@ -130,9 +130,6 @@ Unfortunately, the initial code built is proprietary and not shareable. I will u
 
 Reservoir Simulation is used to predict the flow of fluids (typically, oil, water, and gas) through a porous media.
 
-![](images/ResModel.PNG)
-> Reservoir Model produced through VTK
-
 ### Define Reservoir Characteristics
 First, we must define the reservoir characteristics such as transmissibility, porosity, permeability, fluid viscosity, and rate of change within a 1D reservoir. 
 
@@ -278,7 +275,7 @@ class OneDimReservoir():
 ```
 
 ### Build Reservoir 
-Next, the reservoir size must be created initially in the 2D space with Matplotlib and then transformed into 3D using VTK.
+Next, the reservoir can now be built in 2D  with Matplotlib and then transformed into 3D using VTK matrices.
 
 ```
 class TwoDimReservoir(OneDimReservoir):
@@ -460,7 +457,7 @@ class ThreeDimReservoir(TwoDimReservoir):
  
 
 ### Simulate Production
-Finally, we have must create hypothetical oil wells that produce over a period of time. We can finally observe the expected production and drainage of this reservoir. 
+Finally, we can create hypothetical oil wells that produce into the reservoir over a period of time. We can now observe and monitor the expected production and drainage of this reservoir. 
 
 ```
 import os
@@ -505,6 +502,9 @@ def secret_project2_test_2(BHP=float(os.environ['BHP2'])):
     
     return 
  ```
+
+![](images/ResModel.PNG)
+> Final Product of Reservoir Model created through VTK
 
 ## Los Angeles Investment Projections - R, Tableau, SQL
 
