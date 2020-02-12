@@ -134,7 +134,7 @@ Reservoir Simulation is used to predict the flow of fluids (typically, oil, wate
 > Reservoir Model produced through VTK
 
 ### Define Reservoir Characteristics
-First, we must define the reservoir characteristics such as transmissibility, porosity, permeability, fluid viscosity, and rate of change. 
+First, we must define the reservoir characteristics such as transmissibility, porosity, permeability, fluid viscosity, and rate of change within a 1D reservoir. 
 
 ```
 class OneDimReservoir():
@@ -278,7 +278,7 @@ class OneDimReservoir():
 ```
 
 ### Build Reservoir 
-Next, the reservoir size must be created initially in the 2D space and then transformed into 3D using a matrix.
+Next, the reservoir size must be created initially in the 2D space with Matplotlib and then transformed into 3D using VTK.
 
 ```
 class TwoDimReservoir(OneDimReservoir):
@@ -432,7 +432,30 @@ class TwoDimReservoir(OneDimReservoir):
         
         return
         
+      import matplotlib.pyplot as plt
+        fig = plt.figure()
+        ax = fig.add.axes([0.1, 0.1, 0.8, 0.8], polar=True)
+        r = numpy.arrange(0, 3.0, 0.01)
+        theta =2*numpy.pi*r
+        ax.set_rmax(2.0)
+        ax.grid(True)
         
+        plt.show()
+        
+class ThreeDimReservoir(TwoDimReservoir):
+        vtk_pts = array2vtkpoints(matrix)
+        
+        grid = vtk.vtkUnstructuredGrid()
+        grid.setpoints(vtk_pts) 
+        
+        ids = numpy.arrange(0, 8*nx*ny*nz, 8)
+        cells = array2vtkCellArray(ids)
+
+        ungrid = vtkExtractUnstructuredGrid()
+        ungrid.setinput(grid)
+        
+        ungrid = ungrid.GetOutput()
+        ungrid.Update()
  ```
  
 
