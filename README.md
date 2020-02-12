@@ -277,13 +277,12 @@ class OneDimReservoir():
         
 
 ```
-![](images/ResModel2.PNG)
-> 2D Reservoir Model created through Matplotlib
 
 ### Build Reservoir 
 Next, the reservoir can now be built in 2D  with Matplotlib and then transformed into 3D using VTK matrices.
 
-
+![](images/ResModel2.PNG)
+> 2D Reservoir Model created through Matplotlib
 
 ```
 class TwoDimReservoir(OneDimReservoir):
