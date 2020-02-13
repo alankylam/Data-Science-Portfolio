@@ -7,9 +7,9 @@ This portfolio is a compilation of projects I created for corporate data analysi
 **My Projects:**
 1. [Oil & Gas Corporate Drilling Data Project](https://alankylam.github.io/#oil--gas-corporate-drilling-data-project---sql-vba-python-spotfire)
 2. [Reservoir Simulation Model Project](https://alankylam.github.io/#reservoir-simulation-model-project---python-vtk-matplotlib-numpy)
-3. [Los Angeles Investment Projections](https://alankylam.github.io/#los-angeles-investment-projections---r-tableau-sql)
+3. [Hollywood by the Numbers Project]()
 
-## Oil & Gas Corporate Drilling Data Project - SQL, VBA, Python, Spotfire
+## Oil & Gas Corporate Drilling Data Project - Python, Spotfire
 
 ### Outline
 * [Problem](https://alankylam.github.io/#problem)
@@ -121,7 +121,7 @@ Unfortunately, the initial code built is proprietary and not shareable. I will u
 
 ![](images/CorpRepos.PNG)
 
-## Reservoir Simulation Model Project - Python, VTK, Matplotlib, NumPy
+## Reservoir Simulation Model Project - Python
 
 ### Outline
 * [Define Reservoir Characteristics](https://alankylam.github.io/#define-reservoir-characteristics)
@@ -513,6 +513,6 @@ def secret_project2_test_2(BHP=float(os.environ['BHP2'])):
 ![](images/ResModel.PNG)
 > Final Product of Reservoir Model created through VTK
 
-## Los Angeles Investment Projections - R, Tableau, SQL
+## Hollywood by the Numbers Project - R, Tableau
 
 Under Construction
